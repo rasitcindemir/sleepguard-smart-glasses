@@ -1,0 +1,37 @@
+# Arduino
+*.elf
+*.hex
+*.bin
+*.eep
+*.o
+*.a
+build/
+.arduino_ide/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+/coverage/
+*.log
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/app/src/main/res/values/strings.xml
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
